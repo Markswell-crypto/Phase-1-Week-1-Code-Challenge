@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODE CHALLENGE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- This section of the page has a gui elements that are meant accept input from the user in terms of
+    student grades and displays back the grade of that student -->
+    <div>
+        <h1>Student Grade Calculator</h1>
+        <form>
+          <label for="marks">Input Student Marks (between 0 and 100):</label>
+          <input type="number" id="marks" name="marks" min="0" max="100">
+          <button type="button" onclick="gradingSystem()">Grade</button>
+        </form>
+        <p id="grade"></p>
+    </div>
+
+<!-- This section of the page has a gui elements that generates a speeding ticket to a speeding Driver
+    after the user provides the speed in km/hr -->
+
+    <div>
+        <h1>Speeding Ticket Calculator</h1>
+        <form>
+          <label for="speed">Enter the car's speed (in km/h):</label>
+          <input type="number" id="speed" name="speed" required>
+          <button type="button" onclick="speedCalculator()">Compute</button>
+        </form>
+        <p id="result"></p>
+    </div>
+<!-- This section of the page has a gui elements that are meant accept input by
+     from the user in terms of basic salary and benefits and displays back the tax 
+     he/she is required to pay-->
+
+    <div>
+        <h1>Net Salary Calculator</h1>
+		<form id="salary-form">
+			<label for="basic-salary">Basic Salary:</label>
+			<input type="number" id="basic-salary" name="basic-salary"><br>
+
+			<label for="benefits">Benefits:</label>
+			<input type="number" id="benefits" name="benefits"><br>
+
+			<button type="button" id="calculate-button">Compute</button>
+		</form>
+
+		<div id="result"></div>
+    </div>
+
+    <script src="./main.js"></script>
+    
+</body>
+</html>
