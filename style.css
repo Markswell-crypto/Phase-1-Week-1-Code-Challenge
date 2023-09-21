@@ -1,0 +1,63 @@
+/* styling main elements in css */
+*{
+    background-color: blueviolet;
+    margin: 20px;
+}
+
+h1 {
+  color: brown;
+    text-align: center;
+  }
+body {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: blueviolet;
+}
+div{
+    margin: auto;
+}
+  
+/*Form styling and button transitions */
+  form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  label {
+    background-color: crimson;
+    font-size: 25px;
+    margin: auto;
+  }
+
+  input[type=number] {
+    width: 100px;
+    font-size: 1.2em;
+    padding: 5px;
+    border-bottom: 2px solid #ccc;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: #031404;
+    color: #fff;
+    border: blanchedalmond;
+    cursor: default;
+  }
+
+  button:hover {
+    background-color: #bd2148;
+  }
+  
+  p {
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+  }
